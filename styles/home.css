@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: #1a0050;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+}
+.menu{
+    display: flex;
+}
+.menu .merge{
+    margin-right: 10px;
+    padding: 7px;
+    font-size: 18px;
+    cursor: e-resize;
+}
+.menu .merge:hover{
+    color: rgb(1, 253, 194);
+}
+.menu-container .logo img{
+    height: 60px;
+
+}
